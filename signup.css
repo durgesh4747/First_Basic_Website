@@ -1,0 +1,82 @@
+*{
+    text-decoration: none;
+}
+body{
+    padding: 210px;
+    margin: 2px;
+    background-color: rgb(190, 206, 181);;
+    background-image: url(/04/Images/bg.jpg);
+    background-blend-mode:color-burn;
+    background-repeat: no-repeat;
+    background-position:center;
+    background-size:cover;
+    color:white;
+}
+form{
+    background-image: url(/04/Images/bg.jpg);
+    background-blend-mode:color-burn;
+    background-color: rgb(240, 231, 233);
+    background-color: transparent;
+    padding:40px 5px 60px 5px;
+    justify-content:center;
+    border: solid black 1px;
+    border-radius:30px;
+}   
+.page{ 
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+h1{
+    margin:0px;
+    margin-bottom: 10px;
+    font-size: 30px;
+}
+#text{
+    margin-top: 10px;
+    margin-bottom:10px;
+    text-align: left;
+    border:solid 1px;
+    border-radius: 10px;
+    text-align:center;
+    font-weight: bold;
+    color:white;
+    background-color: transparent;
+}
+#pass{
+    margin-bottom:0px;
+    padding-bottom: 0px;
+    text-align: left;
+    border:solid 1px;
+    border-radius: 10px;
+    text-align:center;
+    font-weight: bold;
+    color:white;
+    background-color: transparent;
+}
+#signup button{
+    margin:0px;
+    margin-top:10px;
+    margin-bottom:5px;
+    background-color: transparent;
+    border: 1px solid;
+    border-radius:10px;
+    color:white;
+    font-weight: bold;;
+}
+#acc{
+    margin:0px;
+    margin-top:5px;
+    text-align:left;
+    font-size: 15px;
+}
+#login{
+    margin:0px;
+    margin-top: 5px;
+    text-align:center;
+    font-size: 15px;
+}
+#login a{
+    color:green;
+}

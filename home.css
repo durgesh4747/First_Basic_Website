@@ -1,0 +1,41 @@
+*{
+    padding:0px;
+    margin:0px;
+    text-decoration: none;
+    background-image:url(/04/Images/bg.jpg);
+    background-blend-mode:exclusion;
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+#navbar{
+    display: flex;
+}
+a{
+    color: white;
+    margin-right: auto;
+    margin-top: 15px;;
+    margin-left: auto;
+    height:10px;
+    font-size: 25px;
+}
+button{
+    display: flex;
+    background-color:rgba(44, 39, 39, 0.774);
+    color: white ;
+    margin: 0px;
+    margin-left:0px;
+    margin-right:0px;
+    font-size: 20px;    
+}
+footer{
+    margin:0px;
+    padding:0px;
+    margin-top: 580px;
+    text-align: center;
+    background-color: transparent;
+    background: none;
+}
+.ft{ 
+    background: none;
+    margin-right:50px;
+}
